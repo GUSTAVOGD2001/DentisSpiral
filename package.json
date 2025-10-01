@@ -9,27 +9,16 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
-    "@fullcalendar/core": "^6.1.11",
-    "@fullcalendar/daygrid": "^6.1.11",
-    "@fullcalendar/timegrid": "^6.1.11",
-    "@fullcalendar/interaction": "^6.1.11",
-    "@fullcalendar/react": "^6.1.11",
-    "axios": "^1.6.0",
-    "lucide-react": "^0.276.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.0",
-    "recharts": "^2.9.0"
+    "react": "*",
+    "react-dom": "*",
+    "@fullcalendar/core": "*",
+    "@fullcalendar/daygrid": "*",
+    "@fullcalendar/timegrid": "*",
+    "@fullcalendar/interaction": "*",
+    "@fullcalendar/react": "*"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.0.3",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.57.0",
-    "eslint-plugin-react": "^7.33.2",
-    "postcss": "^8.4.27",
-    "tailwindcss": "^3.3.3",
-    "vite": "^4.4.9"
+    "vite": "*",
+    "@vitejs/plugin-react": "*"
   }
 }
