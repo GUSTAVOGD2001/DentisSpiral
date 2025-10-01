@@ -10,12 +10,7 @@
   },
   "dependencies": {
     "react": "*",
-    "react-dom": "*",
-    "@fullcalendar/core": "*",
-    "@fullcalendar/daygrid": "*",
-    "@fullcalendar/timegrid": "*",
-    "@fullcalendar/interaction": "*",
-    "@fullcalendar/react": "*"
+    "react-dom": "*"
   },
   "devDependencies": {
     "vite": "*",
