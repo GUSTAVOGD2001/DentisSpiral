@@ -18,6 +18,42 @@ npm run dev
 
 El servidor se levantará por defecto en `http://localhost:5173`.
 
+## Desarrollo
+1. Instala dependencias:
+   ```bash
+   npm install
+   ```
+2. Ejecuta en desarrollo:
+   ```bash
+   npm run dev
+   ```
+3. Abre en el navegador la URL que muestre Vite (por defecto http://localhost:5173).
+
+### Notas
+- Si aparece un error con PowerShell sobre ExecutionPolicy, usa:
+  - Temporal (solo esta terminal):
+    ```powershell
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+    ```
+  - O para tu usuario:
+    ```powershell
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+    ```
+- Si “vite no se reconoce”, verifica que esté en devDependencies y reinstala:
+  ```powershell
+  rd /s /q node_modules
+  del package-lock.json
+  npm install
+  ```
+
+Guía de recuperación:
+```powershell
+rd /s /q node_modules
+del package-lock.json
+npm cache clean --force
+npm install
+```
+
 ## 🧭 Rutas principales
 - `/login` – Inicio de sesión para administradores y secretarias.
 - `/dashboard` – Panel principal con métricas, citas próximas y gráficas.
